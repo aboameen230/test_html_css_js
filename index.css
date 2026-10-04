@@ -10,6 +10,8 @@
     margin: auto;
 }
 
+/* nav_bar */
+
 nav {
     background: rgb(2, 59, 109);
     color: #fff;
@@ -32,6 +34,21 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
 }
+
+
+/* banner_section */
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+/* images_section */
 
 .service {
     background: rgb(135, 206, 235);
