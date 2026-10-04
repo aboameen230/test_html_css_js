@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container_customize {
+    width: 80%;
+    margin: auto;
+}
+
+/* nav_bar */
+
+nav {
+    background: rgb(2, 59, 109);
+    color: #fff;
+}
+
+nav .container_customize {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* banner_section */
+
+.banner {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+.banner_text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner_text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* images_section */
+
+.service {
+    background: rgb(135, 206, 235);
+    text-align: center;
+    padding: 40px 0;
+}
+
+.service_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.service_item {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.service_item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+/* footer */
+footer{
+    background: rgb(2, 59, 109);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon:hover{
+    background: #fff;
+    color: #000;
+}
